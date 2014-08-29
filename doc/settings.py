@@ -61,11 +61,18 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #'NAME': 'aura',
+        #'USER': 'aura',
+        #'PASSWORD': 'aura',
+        #'HOST': 'localhost',
+        #'PORT': '5432',
+
         'NAME': 'dc9urk0oteh2j1',
         'USER': 'yyhlrdealwryou',
         'PASSWORD': 'BU75QGdCInYQYcg61LnSR4e1W2',
         'HOST': 'ec2-54-243-50-213.compute-1.amazonaws.com',
         'PORT': '5432',
+    
 
     }
 }
